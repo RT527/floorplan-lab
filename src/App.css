@@ -46,3 +46,38 @@ div {
   margin: 5px;
   padding: 5px;
 }
+
+.floorplan {
+  border: 2px solid black;
+  display: inline-grid;
+  grid-template-columns: 2fr 2fr;
+  color: white
+}
+
+.kitchen {
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+}
+
+.bedroom {
+  background-color: green;
+}
+
+.bath {
+  background-color: blue;
+}
+
+.livingroom {
+  background-color: tan;
+}
+
+.sink {
+  width: 50%;
+  background-color: brown;
+}
+
+.oven {
+  width: 50%;
+  background-color: yellow;
+}
